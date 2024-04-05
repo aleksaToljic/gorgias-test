@@ -1,10 +1,12 @@
 import './App.css'
 
+export const TITLE = 'Customer Analytics'
+
 function App() {
 
     return (
         <>
-            <h1>Customer Analytics</h1>
+            <h1>{TITLE}</h1>
             <div className="card">
                 See README.md within the repository for assignment details.
             </div>
