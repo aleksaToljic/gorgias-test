@@ -7,6 +7,11 @@ that serves as a sandbox to work on recruitment assignment described below.
 Using provided scaffolding, mocked api server (TBD) implement 
 a Tabular report presenting info about Customers and their performance statistics.
 
+### Running the app and the dev server
+```shell
+yarn run dev
+```
+This command should start the app and the dev server. See command output for urls.
 
 ### Kick-started with:
 # React + TypeScript + Vite

@@ -1,0 +1,36 @@
+{
+  "customers": {
+    "data": [
+      {
+        "type": "customer",
+        "id": "abc123",
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      {
+        "type": "customer",
+        "id": "abc456",
+        "firstName": "Ann",
+        "lastName": "Carpenter"
+      }
+    ]
+  },
+  "analytics": {
+    "data": [
+      {
+        "customerId": "abc123",
+        "views": 100,
+        "clicks": 50,
+        "checkouts": 25,
+        "payments": 5
+      },
+      {
+        "customerId": "abc456",
+        "views": 200,
+        "clicks": 50,
+        "checkouts": 25,
+        "payments": 10
+      }
+    ]
+  }
+}
