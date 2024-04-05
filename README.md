@@ -1,3 +1,14 @@
+## Gorgias assignment
+
+This repository contains an app scaffolding made with Vite, 
+that serves as a sandbox to work on recruitment assignment described below.
+
+## Assignment
+Using provided scaffolding, mocked api server (TBD) implement 
+a Tabular report presenting info about Customers and their performance statistics.
+
+
+### Kick-started with:
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
