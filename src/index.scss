@@ -28,6 +28,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+  > div {
+    flex: 1 1 auto;
+    padding: 16px;
+  }
 }
 
 h1 {
@@ -64,5 +69,41 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+.m-table {
+  $border-color: white;
+
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
+
+  &__column {
+    padding: 16px 8px;
+    text-align: left;
+  }
+
+  &__row {
+    &:first-child > td {
+      border-top: 1px solid $border-color;
+    }
+  }
+
+  &__cell {
+    padding: 16px 8px;
+    border-bottom: 1px solid $border-color;
+
+    &:first-child {
+      border-left: 1px solid $border-color;
+      padding: 16px 8px 16px 16px;
+    }
+
+    &:last-child {
+      border-right: 1px solid $border-color;
+      padding: 16px 16px 16px 8px;
+      width: auto;
+      white-space: normal;
+    }
   }
 }
